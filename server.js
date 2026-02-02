@@ -22,7 +22,7 @@ const socketHandler = require('./socket/socketHandler');
 const app = express();
 
 // Security: CORS & Headers
-const allowedOrigins = process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : ['http://localhost:3000', 'http://localhost:3001'];
+const allowedOrigins = process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : ['https://salesiqliveapp-7hm63.ondigitalocean.app'];
 app.use(cors({
     origin: function (origin, callback) {
         // Allow requests with no origin (like mobile apps or curl requests)
