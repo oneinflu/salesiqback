@@ -1627,3 +1627,9 @@
 {"level":"info","message":"POST /api/admin/register","service":"salesiq-socket-service","timestamp":"2026-02-03T06:30:16.880Z"}
 {"level":"info","message":"POST /api/admin/login","service":"salesiq-socket-service","timestamp":"2026-02-03T06:30:17.013Z"}
 {"level":"info","message":"POST /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-03T06:30:17.099Z"}
+{"level":"info","message":"Received kill signal, shutting down gracefully","service":"salesiq-socket-service","timestamp":"2026-02-03T06:43:37.065Z"}
+{"level":"info","message":"Server running on port 5001","service":"salesiq-socket-service","timestamp":"2026-02-03T06:43:41.295Z"}
+{"level":"info","message":"Redis Adapter connected","service":"salesiq-socket-service","timestamp":"2026-02-03T06:43:41.299Z"}
+{"level":"info","message":"MongoDB Connected","service":"salesiq-socket-service","timestamp":"2026-02-03T06:43:41.675Z"}
+{"level":"info","message":"POST /api/admin/register","service":"salesiq-socket-service","timestamp":"2026-02-03T06:44:00.076Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-03T06:44:00.219Z"}

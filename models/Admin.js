@@ -15,6 +15,10 @@ const adminSchema = new mongoose.Schema({
   },
   name: {
     type: String
+  },
+  avatar: {
+    type: String,
+    default: ''
   }
 }, { timestamps: true });
 

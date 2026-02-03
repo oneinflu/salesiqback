@@ -77,7 +77,21 @@ const registerAdmin = async (req, res) => {
   }
 };
 
+// @desc    Get current logged in admin
+// @route   GET /api/admin/me
+// @access  Private
+const getMe = async (req, res) => {
+  try {
+    const admin = await Admin.findById(req.admin.id).select('-password');
+    res.json(admin);
+  } catch (error) {
+    logger.error('Get Me Error: ' + error.message);
+    res.status(500).json({ message: 'Server error' });
+  }
+};
+
 module.exports = {
   loginAdmin,
   registerAdmin,
+  getMe,
 };
