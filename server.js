@@ -10,6 +10,8 @@ const client = require('prom-client');
 const logger = require('./utils/logger');
 
 // Import Routes
+const adminRoutes = require('./routes/adminRoutes');
+const companyRoutes = require('./routes/companyRoutes');
 const chatRoutes = require('./routes/chatRoutes');
 const faqRoutes = require('./routes/faqRoutes');
 const articleRoutes = require('./routes/articleRoutes');
@@ -22,7 +24,7 @@ const socketHandler = require('./socket/socketHandler');
 const app = express();
 
 // Security: CORS & Headers
-const allowedOrigins = process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : ['https://salesiqliveapp-7hm63.ondigitalocean.app'];
+const allowedOrigins = process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : ['http://localhost:3000', 'http://localhost:3001'];
 app.use(cors({
     origin: function (origin, callback) {
         // Allow requests with no origin (like mobile apps or curl requests)
@@ -89,6 +91,8 @@ app.get('/', (req, res) => {
     res.send('SalesIQ Backend Running');
 });
 
+app.use('/api/admin', adminRoutes);
+app.use('/api/companies', companyRoutes);
 app.use('/api/chats', chatRoutes);
 app.use('/api/faqs', faqRoutes);
 app.use('/api/articles', articleRoutes);
