@@ -94,8 +94,43 @@ const getCompanyWebsites = async (req, res) => {
   }
 };
 
+// @desc    Get company by ID
+// @route   GET /api/companies/:id
+// @access  Private (Admin)
+const getCompanyById = async (req, res) => {
+  try {
+    const company = await Company.findById(req.params.id);
+    if (!company) {
+      return res.status(404).json({ message: 'Company not found' });
+    }
+
+    // Get associated website(s)
+    const websites = await Website.find({ companyId: company._id });
+    
+    // Construct response with integration details
+    const websiteData = websites.map(site => {
+      const embedUrl = 'https://salesiqliveapp-7hm63.ondigitalocean.app/embed.js';
+      const embedCode = `<script>window.$salesiq=window.$salesiq||{};$salesiq.ready=function(){};</script> <script id="salesiqscript" src="${embedUrl}?companyId=${company._id}&websiteId=${site._id}" defer></script>`;
+      
+      return {
+        ...site.toObject(),
+        embedCode
+      };
+    });
+
+    res.json({
+      ...company.toObject(),
+      websites: websiteData
+    });
+  } catch (error) {
+    logger.error('Get Company By ID Error: ' + error.message);
+    res.status(500).json({ message: 'Server error' });
+  }
+};
+
 module.exports = {
   createCompanyAndWebsite,
   getCompanies,
+  getCompanyById,
   getCompanyWebsites
 };

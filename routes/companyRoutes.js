@@ -3,6 +3,7 @@ const router = express.Router();
 const { 
   createCompanyAndWebsite, 
   getCompanies, 
+  getCompanyById,
   getCompanyWebsites 
 } = require('../controllers/companyController');
 const { protect } = require('../middleware/authMiddleware');
@@ -12,6 +13,7 @@ router.use(protect);
 
 router.post('/', createCompanyAndWebsite);
 router.get('/', getCompanies);
+router.get('/:id', getCompanyById);
 router.get('/:id/websites', getCompanyWebsites);
 
 module.exports = router;
