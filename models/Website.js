@@ -22,6 +22,9 @@ const websiteSchema = new mongoose.Schema({
       enum: ['left', 'right'],
       default: 'right'
     }
+  },
+  webhookUrl: {
+    type: String
   }
 }, { timestamps: true });
 

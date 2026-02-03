@@ -1633,3 +1633,26 @@
 {"level":"info","message":"MongoDB Connected","service":"salesiq-socket-service","timestamp":"2026-02-03T06:43:41.675Z"}
 {"level":"info","message":"POST /api/admin/register","service":"salesiq-socket-service","timestamp":"2026-02-03T06:44:00.076Z"}
 {"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-03T06:44:00.219Z"}
+{"level":"info","message":"Received kill signal, shutting down gracefully","service":"salesiq-socket-service","timestamp":"2026-02-03T11:26:13.216Z"}
+{"level":"info","message":"Server running on port 5001","service":"salesiq-socket-service","timestamp":"2026-02-03T11:26:17.538Z"}
+{"level":"info","message":"Redis Adapter connected","service":"salesiq-socket-service","timestamp":"2026-02-03T11:26:17.544Z"}
+{"level":"info","message":"MongoDB Connected","service":"salesiq-socket-service","timestamp":"2026-02-03T11:26:17.911Z"}
+{"level":"info","message":"POST /api/admin/register","service":"salesiq-socket-service","timestamp":"2026-02-03T11:26:38.240Z"}
+{"level":"info","message":"POST /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-03T11:26:38.381Z"}
+{"level":"info","message":"POST /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-03T11:26:38.522Z"}
+{"level":"info","message":"Received kill signal, shutting down gracefully","service":"salesiq-socket-service","timestamp":"2026-02-03T11:29:53.347Z"}
+{"level":"info","message":"Server running on port 5001","service":"salesiq-socket-service","timestamp":"2026-02-03T11:29:57.916Z"}
+{"level":"info","message":"Redis Adapter connected","service":"salesiq-socket-service","timestamp":"2026-02-03T11:29:57.921Z"}
+{"level":"info","message":"MongoDB Connected","service":"salesiq-socket-service","timestamp":"2026-02-03T11:29:58.295Z"}
+{"level":"info","message":"POST /api/admin/register","service":"salesiq-socket-service","timestamp":"2026-02-03T11:30:05.696Z"}
+{"level":"info","message":"POST /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-03T11:30:05.826Z"}
+{"level":"error","message":"Create Company Error: E11000 duplicate key error collection: salesiq.companies index: email_1 dup key: { email: \"contact@webhook.com\" }","service":"salesiq-socket-service","timestamp":"2026-02-03T11:30:05.917Z"}
+{"level":"info","message":"POST /api/admin/register","service":"salesiq-socket-service","timestamp":"2026-02-03T11:30:19.027Z"}
+{"level":"info","message":"POST /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-03T11:30:19.149Z"}
+{"level":"info","message":"POST /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-03T11:30:19.271Z"}
+{"level":"info","message":"Triggering webhook for website 6981dc4baf63081734a3fcf9 to https://webhook.site/test-uuid-mock","service":"salesiq-socket-service","timestamp":"2026-02-03T11:30:19.332Z"}
+{"level":"error","message":"Webhook trigger failed for website 6981dc4baf63081734a3fcf9: Request failed with status code 404","service":"salesiq-socket-service","timestamp":"2026-02-03T11:30:20.135Z"}
+{"level":"info","message":"Received kill signal, shutting down gracefully","service":"salesiq-socket-service","timestamp":"2026-02-03T11:32:32.858Z"}
+{"level":"info","message":"Server running on port 5001","service":"salesiq-socket-service","timestamp":"2026-02-03T11:36:03.942Z"}
+{"level":"info","message":"Redis Adapter connected","service":"salesiq-socket-service","timestamp":"2026-02-03T11:36:03.946Z"}
+{"level":"info","message":"MongoDB Connected","service":"salesiq-socket-service","timestamp":"2026-02-03T11:36:04.319Z"}

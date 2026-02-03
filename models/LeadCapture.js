@@ -1,6 +1,12 @@
 const mongoose = require('mongoose');
 
 const leadCaptureSchema = new mongoose.Schema({
+  websiteId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Website',
+    required: false, // Optional for manual leads or if not tied to a website
+    index: true
+  },
   chatId: {
     type: String,
     required: false, // Not required if manually added

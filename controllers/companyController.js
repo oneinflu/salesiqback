@@ -6,7 +6,7 @@ const logger = require('../utils/logger');
 // @route   POST /api/companies
 // @access  Private (Admin)
 const createCompanyAndWebsite = async (req, res) => {
-  const { companyName, companyEmail, websiteName, websiteUrl, timezone, themeColor, widgetColor, widgetPosition } = req.body;
+  const { companyName, companyEmail, websiteName, websiteUrl, timezone, themeColor, widgetColor, widgetPosition, webhookUrl } = req.body;
 
   const session = await Company.startSession();
   session.startTransaction();
@@ -29,6 +29,7 @@ const createCompanyAndWebsite = async (req, res) => {
       companyId: newCompany._id,
       name: websiteName || companyName + ' Website',
       url: websiteUrl,
+      webhookUrl: webhookUrl,
       widgetConfig: {
         primaryColor: widgetColor,
         position: widgetPosition
@@ -40,6 +41,9 @@ const createCompanyAndWebsite = async (req, res) => {
     await session.commitTransaction();
     session.endSession();
 
+    const embedUrl = 'https://salesiqliveapp-7hm63.ondigitalocean.app/embed.js';
+    const embedCode = `<script>window.$salesiq=window.$salesiq||{};$salesiq.ready=function(){};</script> <script id="salesiqscript" src="${embedUrl}?companyId=${newCompany._id}&websiteId=${newWebsite._id}" defer></script>`;
+
     res.status(201).json({
       message: 'Company and Website created successfully',
       company: {
@@ -50,9 +54,10 @@ const createCompanyAndWebsite = async (req, res) => {
       website: {
         id: newWebsite._id,
         name: newWebsite.name,
-        url: newWebsite.url
+        url: newWebsite.url,
+        webhookUrl: newWebsite.webhookUrl
       },
-      embedCode: `<script src="${process.env.WIDGET_URL || 'http://localhost:5001/widget.js'}" data-website-id="${newWebsite._id}"></script>`
+      embedCode: embedCode
     });
 
   } catch (error) {
