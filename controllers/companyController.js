@@ -41,7 +41,7 @@ const createCompanyAndWebsite = async (req, res) => {
     await session.commitTransaction();
     session.endSession();
 
-    const embedUrl = 'https://salesiqliveapp-7hm63.ondigitalocean.app/embed.js';
+    const embedUrl = 'http://localhost:3000/embed.js';
     const embedCode = `<script>window.$salesiq=window.$salesiq||{};$salesiq.ready=function(){};</script> <script id="salesiqscript" src="${embedUrl}?companyId=${newCompany._id}&websiteId=${newWebsite._id}" defer></script>`;
 
     res.status(201).json({
@@ -109,7 +109,7 @@ const getCompanyById = async (req, res) => {
     
     // Construct response with integration details
     const websiteData = websites.map(site => {
-      const embedUrl = 'https://salesiqliveapp-7hm63.ondigitalocean.app/embed.js';
+      const embedUrl = 'http://localhost:3000/embed.js';
       const embedCode = `<script>window.$salesiq=window.$salesiq||{};$salesiq.ready=function(){};</script> <script id="salesiqscript" src="${embedUrl}?companyId=${company._id}&websiteId=${site._id}" defer></script>`;
       
       return {

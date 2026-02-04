@@ -1656,3 +1656,7 @@
 {"level":"info","message":"Server running on port 5001","service":"salesiq-socket-service","timestamp":"2026-02-03T11:36:03.942Z"}
 {"level":"info","message":"Redis Adapter connected","service":"salesiq-socket-service","timestamp":"2026-02-03T11:36:03.946Z"}
 {"level":"info","message":"MongoDB Connected","service":"salesiq-socket-service","timestamp":"2026-02-03T11:36:04.319Z"}
+{"level":"info","message":"Received kill signal, shutting down gracefully","service":"salesiq-socket-service","timestamp":"2026-02-03T12:33:46.833Z"}
+{"level":"info","message":"Server running on port 5001","service":"salesiq-socket-service","timestamp":"2026-02-04T09:27:05.411Z"}
+{"level":"info","message":"Redis Adapter connected","service":"salesiq-socket-service","timestamp":"2026-02-04T09:27:05.433Z"}
+{"level":"info","message":"MongoDB Connected","service":"salesiq-socket-service","timestamp":"2026-02-04T09:27:05.821Z"}
