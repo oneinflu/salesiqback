@@ -1660,3 +1660,404 @@
 {"level":"info","message":"Server running on port 5001","service":"salesiq-socket-service","timestamp":"2026-02-04T09:27:05.411Z"}
 {"level":"info","message":"Redis Adapter connected","service":"salesiq-socket-service","timestamp":"2026-02-04T09:27:05.433Z"}
 {"level":"info","message":"MongoDB Connected","service":"salesiq-socket-service","timestamp":"2026-02-04T09:27:05.821Z"}
+{"level":"info","message":"POST /api/admin/login","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:13.383Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:13.530Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:13.614Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:16.616Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:16.622Z"}
+{"level":"info","message":"New connection: JCaMij1HPwYAlEBoAAAC","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:16.625Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:16.705Z"}
+{"level":"info","message":"Client disconnected: JCaMij1HPwYAlEBoAAAC","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:18.829Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:18.852Z"}
+{"level":"info","message":"New connection: 168t2lUXbazpjCYHAAAF","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:18.859Z"}
+{"level":"info","message":"Client disconnected: 168t2lUXbazpjCYHAAAF","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:38.153Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:38.171Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:38.178Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:38.251Z"}
+{"level":"info","message":"GET /api/companies/6981f9aac1717e96f4cd6e6c","service":"salesiq-socket-service","timestamp":"2026-02-04T09:32:41.025Z"}
+{"level":"info","message":"POST /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:33:14.873Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:33:15.033Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:34:40.584Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:34:40.640Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:34:40.713Z"}
+{"level":"info","message":"GET /api/companies/6983125ad138055cd310024d","service":"salesiq-socket-service","timestamp":"2026-02-04T09:34:41.936Z"}
+{"level":"info","message":"Received kill signal, shutting down gracefully","service":"salesiq-socket-service","timestamp":"2026-02-04T09:36:33.920Z"}
+{"level":"info","message":"Server running on port 5001","service":"salesiq-socket-service","timestamp":"2026-02-04T09:36:36.639Z"}
+{"level":"info","message":"Redis Adapter connected","service":"salesiq-socket-service","timestamp":"2026-02-04T09:36:36.644Z"}
+{"level":"info","message":"MongoDB Connected","service":"salesiq-socket-service","timestamp":"2026-02-04T09:36:37.072Z"}
+{"level":"info","message":"POST /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:37:01.523Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:37:01.699Z"}
+{"level":"info","message":"GET /api/companies/6983133dcc9f84db72b8afa1","service":"salesiq-socket-service","timestamp":"2026-02-04T09:37:36.488Z"}
+{"level":"info","message":"GET /api/chats/history/6980a1ffa53552951561056d","service":"salesiq-socket-service","timestamp":"2026-02-04T09:37:56.949Z"}
+{"level":"info","message":"GET /api/visitors/6980a1ffa53552951561056d","service":"salesiq-socket-service","timestamp":"2026-02-04T09:37:56.952Z"}
+{"level":"info","message":"New connection: ouDQwAPiHJvUZRYOAAAB","service":"salesiq-socket-service","timestamp":"2026-02-04T09:37:56.959Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:11.377Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:11.383Z"}
+{"level":"info","message":"New connection: Lau4WOG4vlwrMknuAAAE","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:11.387Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:11.514Z"}
+{"level":"info","message":"GET /api/chats/history/6980a1ffa53552951561056d","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:11.526Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:21.354Z"}
+{"level":"info","message":"Client disconnected: Lau4WOG4vlwrMknuAAAE","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:21.627Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:21.769Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:21.791Z"}
+{"level":"info","message":"New connection: Yp0d7xdzPpByazvjAAAH","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:21.821Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:21.921Z"}
+{"level":"info","message":"GET /api/chats/history/6980a1ffa53552951561056d","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:21.934Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:31.801Z"}
+{"level":"info","message":"POST /api/chats/6980a1ffa53552951561056d/message","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:32.180Z"}
+{"level":"info","message":"Client disconnected: Yp0d7xdzPpByazvjAAAH","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:41.184Z"}
+{"level":"info","message":"New connection: 8T0Z8YsA2O4XN0HxAAAK","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:41.211Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:41.212Z"}
+{"level":"info","message":"Client disconnected: 8T0Z8YsA2O4XN0HxAAAK","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:44.447Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:44.567Z"}
+{"level":"info","message":"New connection: kA6LvIVBndUbr7fNAAAN","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:44.606Z"}
+{"level":"info","message":"Client disconnected: ouDQwAPiHJvUZRYOAAAB","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:50.685Z"}
+{"level":"info","message":"GET /api/visitors/6980a1ffa53552951561056d","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:50.834Z"}
+{"level":"info","message":"GET /api/chats/history/6980a1ffa53552951561056d","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:50.835Z"}
+{"level":"info","message":"New connection: Dy1SiWy3tEAo9xIBAAAP","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:50.837Z"}
+{"level":"error","message":"Error in visitor:join: E11000 duplicate key error collection: salesiq.visitorsessions index: sessionId_1 dup key: { sessionId: \"nr3909ylkjrnxlk06lvieb\" }","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:50.955Z"}
+{"level":"info","message":"Client disconnected: kA6LvIVBndUbr7fNAAAN","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:06.290Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:06.308Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:08.486Z"}
+{"level":"info","message":"New connection: njBneokTg-HPvI8jAAAS","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:08.488Z"}
+{"level":"info","message":"Client disconnected: njBneokTg-HPvI8jAAAS","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:10.954Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:11.099Z"}
+{"level":"info","message":"New connection: le8IeVpdGjUCc4lAAAAV","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:11.142Z"}
+{"level":"info","message":"Client disconnected: le8IeVpdGjUCc4lAAAAV","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:12.230Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:12.368Z"}
+{"level":"info","message":"New connection: bYExLKYzBxg_hSlyAAAY","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:12.408Z"}
+{"level":"info","message":"Client disconnected: bYExLKYzBxg_hSlyAAAY","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:23.637Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:23.845Z"}
+{"level":"info","message":"New connection: ZrAo4_c6R29jnNapAAAb","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:23.956Z"}
+{"level":"info","message":"Client disconnected: Dy1SiWy3tEAo9xIBAAAP","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:24.063Z"}
+{"level":"info","message":"GET /api/chats/history/6980a1ffa53552951561056d","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:24.419Z"}
+{"level":"info","message":"GET /api/visitors/6980a1ffa53552951561056d","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:24.423Z"}
+{"level":"info","message":"New connection: egQUkKx_BB02cpHuAAAd","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:24.433Z"}
+{"level":"error","message":"Error in visitor:join: E11000 duplicate key error collection: salesiq.visitorsessions index: sessionId_1 dup key: { sessionId: \"nr3909ylkjrnxlk06lvieb\" }","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:24.697Z"}
+{"level":"info","message":"Client disconnected: ZrAo4_c6R29jnNapAAAb","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:29.628Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:29.764Z"}
+{"level":"info","message":"New connection: jcatgcnQBY_wVxMmAAAg","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:29.814Z"}
+{"level":"info","message":"Received kill signal, shutting down gracefully","service":"salesiq-socket-service","timestamp":"2026-02-04T09:40:46.253Z"}
+{"level":"info","message":"Received kill signal, shutting down gracefully","service":"salesiq-socket-service","timestamp":"2026-02-04T09:40:46.255Z"}
+{"level":"info","message":"Server running on port 5001","service":"salesiq-socket-service","timestamp":"2026-02-04T09:40:49.213Z"}
+{"level":"info","message":"Redis Adapter connected","service":"salesiq-socket-service","timestamp":"2026-02-04T09:40:49.217Z"}
+{"level":"info","message":"MongoDB Connected","service":"salesiq-socket-service","timestamp":"2026-02-04T09:40:49.588Z"}
+{"level":"info","message":"Client disconnected: egQUkKx_BB02cpHuAAAd","service":"salesiq-socket-service","timestamp":"2026-02-04T09:40:56.477Z"}
+{"level":"info","message":"GET /api/chats/history/6980a1ffa53552951561056d","service":"salesiq-socket-service","timestamp":"2026-02-04T09:40:56.727Z"}
+{"level":"info","message":"GET /api/visitors/6980a1ffa53552951561056d","service":"salesiq-socket-service","timestamp":"2026-02-04T09:40:56.772Z"}
+{"level":"info","message":"New connection: VVmd1vGR-afsM1pHAAAB","service":"salesiq-socket-service","timestamp":"2026-02-04T09:40:56.781Z"}
+{"level":"info","message":"Client disconnected: jcatgcnQBY_wVxMmAAAg","service":"salesiq-socket-service","timestamp":"2026-02-04T09:40:57.016Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:40:57.202Z"}
+{"level":"info","message":"New connection: Sfm2An51fW8m70twAAAE","service":"salesiq-socket-service","timestamp":"2026-02-04T09:40:57.266Z"}
+{"level":"info","message":"Client disconnected: Sfm2An51fW8m70twAAAE","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:05.576Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:14.095Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:15.701Z"}
+{"level":"info","message":"New connection: 5-m0xuN-sjzSafK5AAAH","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:15.704Z"}
+{"level":"info","message":"Client disconnected: VVmd1vGR-afsM1pHAAAB","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:18.097Z"}
+{"level":"info","message":"GET /api/chats/history/69831428a46da93c4946844b","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:18.333Z"}
+{"level":"info","message":"GET /api/visitors/69831428a46da93c4946844b","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:18.335Z"}
+{"level":"info","message":"New connection: WtvNte9t7URhmNNjAAAJ","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:18.342Z"}
+{"level":"error","message":"Error in visitor:join: E11000 duplicate key error collection: salesiq.visitorsessions index: sessionId_1 dup key: { sessionId: \"nr3909ylkjrnxlk06lvieb\" }","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:18.468Z"}
+{"level":"info","message":"Client disconnected: 5-m0xuN-sjzSafK5AAAH","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:22.839Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:22.952Z"}
+{"level":"info","message":"New connection: GcvF67Jx884vB2Y4AAAM","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:22.990Z"}
+{"level":"info","message":"Client disconnected: GcvF67Jx884vB2Y4AAAM","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:04.379Z"}
+{"level":"info","message":"POST /api/admin/login","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:13.336Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:13.505Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:13.570Z"}
+{"level":"info","message":"Client disconnected: WtvNte9t7URhmNNjAAAJ","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:17.321Z"}
+{"level":"info","message":"New connection: HNV_o2mfdV2a1lrDAAAO","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:17.604Z"}
+{"level":"error","message":"Validation error in visitor:join: \"existingVisitorId\" must be a string","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:17.610Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:33.668Z"}
+{"level":"info","message":"New connection: 9YpDsKRipXs3QRL1AAAR","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:33.679Z"}
+{"level":"info","message":"Client disconnected: 9YpDsKRipXs3QRL1AAAR","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:46.363Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:46.509Z"}
+{"level":"info","message":"New connection: _GHhPnEUQqGr9SnSAAAU","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:46.592Z"}
+{"level":"info","message":"Client disconnected: _GHhPnEUQqGr9SnSAAAU","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:49.005Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:49.019Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:49.031Z"}
+{"level":"info","message":"New connection: nR75Fm9NYK-eSuX6AAAX","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:49.039Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:49.060Z"}
+{"level":"info","message":"Client disconnected: nR75Fm9NYK-eSuX6AAAX","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:50.396Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:50.416Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:50.419Z"}
+{"level":"info","message":"New connection: JEMQsNWAr3a64cqBAAAa","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:50.427Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:50.458Z"}
+{"level":"info","message":"Client disconnected: JEMQsNWAr3a64cqBAAAa","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:55.186Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:55.316Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:55.360Z"}
+{"level":"info","message":"New connection: GUn4ick_3_ZcW3t9AAAd","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:55.372Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:55.393Z"}
+{"level":"info","message":"Client disconnected: GUn4ick_3_ZcW3t9AAAd","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:10.560Z"}
+{"level":"info","message":"New connection: KhUX0E9mI8dLa-i-AAAg","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:10.589Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:10.591Z"}
+{"level":"info","message":"Client disconnected: KhUX0E9mI8dLa-i-AAAg","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:14.467Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:14.591Z"}
+{"level":"info","message":"New connection: vZfj8kh6ELmHrGAWAAAj","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:14.635Z"}
+{"level":"info","message":"Client disconnected: HNV_o2mfdV2a1lrDAAAO","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:17.378Z"}
+{"level":"info","message":"New connection: zUbno8zN_9S5DrZ7AAAl","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:17.721Z"}
+{"level":"error","message":"Validation error in visitor:join: \"existingVisitorId\" must be a string","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:17.726Z"}
+{"level":"info","message":"Client disconnected: vZfj8kh6ELmHrGAWAAAj","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:31.116Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:31.229Z"}
+{"level":"info","message":"New connection: 8ffoyYThkDBDfmF_AAAo","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:31.268Z"}
+{"level":"info","message":"Client disconnected: 8ffoyYThkDBDfmF_AAAo","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:33.456Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:33.591Z"}
+{"level":"info","message":"New connection: fR8Eka2QtyrlYtQSAAAr","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:33.630Z"}
+{"level":"info","message":"Client disconnected: fR8Eka2QtyrlYtQSAAAr","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:38.641Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:38.660Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:38.664Z"}
+{"level":"info","message":"New connection: 5HHePJ057s2ss27nAAAu","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:38.672Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:38.695Z"}
+{"level":"info","message":"Client disconnected: 5HHePJ057s2ss27nAAAu","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:39.466Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:39.487Z"}
+{"level":"info","message":"GET /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:39.493Z"}
+{"level":"info","message":"GET /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:39.528Z"}
+{"level":"info","message":"POST /api/admin/login","service":"salesiq-socket-service","timestamp":"2026-02-04T09:49:04.300Z"}
+{"level":"info","message":"POST /api/admin/login","service":"salesiq-socket-service","timestamp":"2026-02-04T09:49:20.361Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:49:20.530Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:49:20.609Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:49:23.252Z"}
+{"level":"info","message":"New connection: WIMQdh5qwLK09AwyAAAx","service":"salesiq-socket-service","timestamp":"2026-02-04T09:49:23.260Z"}
+{"level":"info","message":"Client disconnected: zUbno8zN_9S5DrZ7AAAl","service":"salesiq-socket-service","timestamp":"2026-02-04T09:49:28.287Z"}
+{"level":"info","message":"New connection: -cy04_VnrrnI9rJnAAAz","service":"salesiq-socket-service","timestamp":"2026-02-04T09:49:28.780Z"}
+{"level":"error","message":"Validation error in visitor:join: \"existingVisitorId\" must be a string","service":"salesiq-socket-service","timestamp":"2026-02-04T09:49:28.795Z"}
+{"level":"info","message":"Received kill signal, shutting down gracefully","service":"salesiq-socket-service","timestamp":"2026-02-04T09:50:36.282Z"}
+{"level":"info","message":"Received kill signal, shutting down gracefully","service":"salesiq-socket-service","timestamp":"2026-02-04T09:50:36.287Z"}
+{"level":"info","message":"Server running on port 5001","service":"salesiq-socket-service","timestamp":"2026-02-04T09:52:30.124Z"}
+{"level":"info","message":"Redis Adapter connected","service":"salesiq-socket-service","timestamp":"2026-02-04T09:52:30.139Z"}
+{"level":"info","message":"MongoDB Connected","service":"salesiq-socket-service","timestamp":"2026-02-04T09:52:30.544Z"}
+{"level":"info","message":"Client disconnected: WIMQdh5qwLK09AwyAAAx","service":"salesiq-socket-service","timestamp":"2026-02-04T09:52:39.423Z"}
+{"level":"info","message":"Client disconnected: -cy04_VnrrnI9rJnAAAz","service":"salesiq-socket-service","timestamp":"2026-02-04T09:52:39.473Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:52:39.815Z"}
+{"level":"info","message":"New connection: 3ypHE9vBBD52nx-KAAAC","service":"salesiq-socket-service","timestamp":"2026-02-04T09:52:39.902Z"}
+{"level":"info","message":"New connection: pgcikEbe-fZe7BLaAAAE","service":"salesiq-socket-service","timestamp":"2026-02-04T09:52:39.986Z"}
+{"level":"info","message":"Client disconnected: 3ypHE9vBBD52nx-KAAAC","service":"salesiq-socket-service","timestamp":"2026-02-04T09:52:40.095Z"}
+{"level":"info","message":"POST /api/admin/register","service":"salesiq-socket-service","timestamp":"2026-02-04T09:52:59.676Z"}
+{"level":"info","message":"POST /api/admin/login","service":"salesiq-socket-service","timestamp":"2026-02-04T09:53:09.478Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:53:09.609Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:53:09.678Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:53:14.359Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:53:14.361Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:53:14.427Z"}
+{"level":"info","message":"POST /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:53:32.937Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:53:33.093Z"}
+{"level":"info","message":"Client disconnected: pgcikEbe-fZe7BLaAAAE","service":"salesiq-socket-service","timestamp":"2026-02-04T09:53:50.826Z"}
+{"level":"info","message":"GET /api/chats/history/698316e814df7f04f3227fd8","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:11.269Z"}
+{"level":"info","message":"GET /api/visitors/698316e814df7f04f3227fd8","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:11.275Z"}
+{"level":"info","message":"New connection: JAo1x2A-SudpjoP-AAAG","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:11.284Z"}
+{"level":"error","message":"Error in visitor:join: E11000 duplicate key error collection: salesiq.visitorsessions index: sessionId_1 dup key: { sessionId: \"mybat8syxzbmsatj0fktr\" }","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:11.441Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:14.542Z"}
+{"level":"info","message":"New connection: vzcjvhAx75U1s6wFAAAJ","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:14.569Z"}
+{"level":"info","message":"Client disconnected: JAo1x2A-SudpjoP-AAAG","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:43.938Z"}
+{"level":"info","message":"New connection: r2KZaNwM4oSMGfrpAAAL","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:46.475Z"}
+{"level":"info","message":"Client disconnected: vzcjvhAx75U1s6wFAAAJ","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:56.391Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:56.402Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:58.780Z"}
+{"level":"info","message":"New connection: pH93gkBq_KAvXp7yAAAO","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:58.784Z"}
+{"level":"info","message":"Client disconnected: pH93gkBq_KAvXp7yAAAO","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:00.150Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:00.166Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:00.172Z"}
+{"level":"info","message":"New connection: i40BOa3cclcS_BfjAAAR","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:00.177Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:00.252Z"}
+{"level":"info","message":"Client disconnected: i40BOa3cclcS_BfjAAAR","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:01.350Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:01.362Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:01.364Z"}
+{"level":"info","message":"New connection: jWR8rfRWbkullH8IAAAU","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:01.367Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:01.459Z"}
+{"level":"info","message":"Client disconnected: jWR8rfRWbkullH8IAAAU","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:08.671Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:08.704Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:08.706Z"}
+{"level":"info","message":"New connection: 3iCC-C1dRxcDevfrAAAX","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:08.708Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:08.741Z"}
+{"level":"info","message":"Client disconnected: 3iCC-C1dRxcDevfrAAAX","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:10.123Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:10.136Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:10.139Z"}
+{"level":"info","message":"New connection: bFia__DvZ8Fbu3KEAAAa","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:10.140Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:10.173Z"}
+{"level":"info","message":"Client disconnected: bFia__DvZ8Fbu3KEAAAa","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:10.694Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:10.703Z"}
+{"level":"info","message":"GET /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:10.704Z"}
+{"level":"info","message":"GET /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:10.738Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:11.596Z"}
+{"level":"info","message":"GET /api/faqs/categories","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:11.598Z"}
+{"level":"info","message":"GET /api/faqs","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:11.602Z"}
+{"level":"info","message":"GET /api/faqs/categories","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:11.635Z"}
+{"level":"info","message":"GET /api/faqs","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:11.639Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:13.307Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:13.309Z"}
+{"level":"info","message":"New connection: rS3_BkX9bSYIeKNKAAAd","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:13.311Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:13.345Z"}
+{"level":"info","message":"Client disconnected: rS3_BkX9bSYIeKNKAAAd","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:27.755Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:27.773Z"}
+{"level":"info","message":"New connection: nNRSqcra_gb3-Td2AAAg","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:27.780Z"}
+{"level":"info","message":"Client disconnected: nNRSqcra_gb3-Td2AAAg","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:28.986Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:28.997Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:29.001Z"}
+{"level":"info","message":"New connection: RhhORWEsiusrHPaeAAAj","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:29.003Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:29.135Z"}
+{"level":"info","message":"GET /api/chats/history/6983176614df7f04f322805a","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:29.151Z"}
+{"level":"info","message":"POST /api/chats/6983176614df7f04f322805a/message","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:33.348Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:39.227Z"}
+{"level":"info","message":"Client disconnected: RhhORWEsiusrHPaeAAAj","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:41.588Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:41.603Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:41.606Z"}
+{"level":"info","message":"New connection: 2UKJ1QkULcF8w2beAAAm","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:41.607Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:41.640Z"}
+{"level":"info","message":"Client disconnected: 2UKJ1QkULcF8w2beAAAm","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:49.451Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:49.463Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:49.468Z"}
+{"level":"info","message":"New connection: HWF-f5mfLnnRouj3AAAp","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:49.474Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:49.602Z"}
+{"level":"info","message":"GET /api/chats/history/6983176614df7f04f322805a","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:49.613Z"}
+{"level":"info","message":"Client disconnected: HWF-f5mfLnnRouj3AAAp","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:52.392Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:52.404Z"}
+{"level":"info","message":"GET /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:52.406Z"}
+{"level":"info","message":"GET /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:52.440Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:55.910Z"}
+{"level":"info","message":"New connection: 5mYgvvb1PoXphjwNAAAs","service":"salesiq-socket-service","timestamp":"2026-02-04T09:55:55.913Z"}
+{"level":"info","message":"Client disconnected: 5mYgvvb1PoXphjwNAAAs","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:17.071Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:17.090Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:18.352Z"}
+{"level":"info","message":"New connection: x97eYlbQ4pdQgCP1AAAv","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:18.357Z"}
+{"level":"info","message":"Client disconnected: x97eYlbQ4pdQgCP1AAAv","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:21.748Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:21.766Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:21.769Z"}
+{"level":"info","message":"New connection: ej_2hTYFsB1QO8mRAAAy","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:21.771Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:21.907Z"}
+{"level":"info","message":"GET /api/chats/history/6983176614df7f04f322805a","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:21.922Z"}
+{"level":"info","message":"Client disconnected: ej_2hTYFsB1QO8mRAAAy","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:23.204Z"}
+{"level":"info","message":"New connection: dSC_4E-7G4i6GO7eAAA1","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:23.227Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:23.228Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:23.230Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:23.265Z"}
+{"level":"info","message":"Client disconnected: dSC_4E-7G4i6GO7eAAA1","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:24.213Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:24.224Z"}
+{"level":"info","message":"GET /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:24.237Z"}
+{"level":"info","message":"GET /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:24.273Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:24.783Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:24.785Z"}
+{"level":"info","message":"New connection: iLVW4yXBkm6OX250AAA4","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:24.786Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:24.819Z"}
+{"level":"info","message":"Client disconnected: iLVW4yXBkm6OX250AAA4","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:25.787Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:25.809Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:25.810Z"}
+{"level":"info","message":"New connection: kLUZurvMjDPQKus8AAA7","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:25.812Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:25.946Z"}
+{"level":"info","message":"GET /api/chats/history/6983176614df7f04f322805a","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:25.956Z"}
+{"level":"info","message":"Client disconnected: kLUZurvMjDPQKus8AAA7","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:27.399Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:27.425Z"}
+{"level":"info","message":"GET /api/faqs/categories","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:27.429Z"}
+{"level":"info","message":"GET /api/faqs","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:27.430Z"}
+{"level":"info","message":"GET /api/faqs/categories","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:27.464Z"}
+{"level":"info","message":"GET /api/faqs","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:27.465Z"}
+{"level":"info","message":"GET /api/articles/categories","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:28.049Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:28.054Z"}
+{"level":"info","message":"GET /api/articles","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:28.060Z"}
+{"level":"info","message":"GET /api/articles/categories","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:28.086Z"}
+{"level":"info","message":"GET /api/articles","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:28.096Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:28.457Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:28.458Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:28.529Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:37.116Z"}
+{"level":"info","message":"New connection: UAzZYTMXOOosBIWRAAA-","service":"salesiq-socket-service","timestamp":"2026-02-04T09:56:37.123Z"}
+{"level":"info","message":"Client disconnected: UAzZYTMXOOosBIWRAAA-","service":"salesiq-socket-service","timestamp":"2026-02-04T09:57:36.877Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:57:37.056Z"}
+{"level":"info","message":"New connection: juErRWDiTuqDkps9AABB","service":"salesiq-socket-service","timestamp":"2026-02-04T09:57:37.106Z"}
+{"level":"info","message":"Client disconnected: juErRWDiTuqDkps9AABB","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:09.031Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:09.054Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:09.057Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:09.127Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:10.142Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:10.147Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:10.214Z"}
+{"level":"info","message":"New connection: CvZSLIQRJwa91pWeAABD","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:10.224Z"}
+{"level":"info","message":"Client disconnected: CvZSLIQRJwa91pWeAABD","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:25.648Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:25.779Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:25.802Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:25.871Z"}
+{"level":"info","message":"New connection: kGSwi2Z09gJbCy8KAABF","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:25.873Z"}
+{"level":"info","message":"Client disconnected: kGSwi2Z09gJbCy8KAABF","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:46.494Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:46.518Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:46.521Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:46.587Z"}
+{"level":"info","message":"GET /api/companies/6983171c14df7f04f3227ffe","service":"salesiq-socket-service","timestamp":"2026-02-04T09:58:48.827Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:08.063Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:08.065Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:08.133Z"}
+{"level":"info","message":"New connection: TnF0qUXbfbwZSw5EAABH","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:08.148Z"}
+{"level":"info","message":"Client disconnected: TnF0qUXbfbwZSw5EAABH","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:27.108Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:27.131Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:27.135Z"}
+{"level":"info","message":"New connection: hWKDorkAV9AQ2xddAABK","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:27.140Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:27.267Z"}
+{"level":"info","message":"GET /api/chats/history/6983176614df7f04f322805a","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:27.279Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:37.114Z"}
+{"level":"info","message":"Client disconnected: hWKDorkAV9AQ2xddAABK","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:43.570Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:43.584Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:43.586Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:43.656Z"}
+{"level":"info","message":"GET /api/companies/6983171c14df7f04f3227ffe","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:45.721Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:51.599Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:51.610Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:51.677Z"}
+{"level":"info","message":"New connection: 71YzrbiFa4hFiwT7AABM","service":"salesiq-socket-service","timestamp":"2026-02-04T09:59:51.681Z"}
+{"level":"info","message":"Client disconnected: 71YzrbiFa4hFiwT7AABM","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:08.827Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:08.842Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:10.081Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:10.083Z"}
+{"level":"info","message":"New connection: EiBdkE09LtqbW3--AABP","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:10.091Z"}
+{"level":"info","message":"GET /api/chats?status=active","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:10.218Z"}
+{"level":"info","message":"GET /api/chats/history/6983176614df7f04f322805a","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:10.233Z"}
+{"level":"info","message":"Client disconnected: r2KZaNwM4oSMGfrpAAAL","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:12.969Z"}
+{"level":"info","message":"Client disconnected: EiBdkE09LtqbW3--AABP","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:16.241Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:16.257Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:16.259Z"}
+{"level":"info","message":"New connection: 0KQGKLGA09irccJ-AABS","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:16.263Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:16.292Z"}
+{"level":"info","message":"Client disconnected: 0KQGKLGA09irccJ-AABS","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:18.878Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:18.995Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:19.046Z"}
+{"level":"info","message":"New connection: yXqWFgtG7ToWA2N5AABV","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:19.057Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:19.080Z"}
+{"level":"info","message":"Client disconnected: yXqWFgtG7ToWA2N5AABV","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:22.195Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:22.210Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:22.212Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:22.280Z"}
+{"level":"info","message":"New connection: l9PdWoYr5XDrN3oJAABX","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:22.292Z"}
+{"level":"info","message":"Client disconnected: l9PdWoYr5XDrN3oJAABX","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:31.481Z"}
+{"level":"info","message":"GET /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:31.498Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:31.499Z"}
+{"level":"info","message":"GET /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:31.534Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:32.514Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:32.515Z"}
+{"level":"info","message":"New connection: --sBCKm4RbGwtPgGAABa","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:32.516Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:32.550Z"}
+{"level":"info","message":"Client disconnected: --sBCKm4RbGwtPgGAABa","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:39.869Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:39.880Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:43.194Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:43.197Z"}
+{"level":"info","message":"New connection: 9WmRiNLaby_hlrlbAABd","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:43.202Z"}
+{"level":"info","message":"GET /api/visitors","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:43.229Z"}
+{"level":"info","message":"Client disconnected: 9WmRiNLaby_hlrlbAABd","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:44.526Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:44.539Z"}
+{"level":"info","message":"GET /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:44.540Z"}
+{"level":"info","message":"GET /api/leads","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:44.574Z"}
+{"level":"info","message":"GET /api/faqs/categories","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:45.773Z"}
+{"level":"info","message":"GET /api/faqs","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:45.775Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:45.776Z"}
+{"level":"info","message":"GET /api/faqs/categories","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:45.810Z"}
+{"level":"info","message":"GET /api/faqs","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:45.810Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:47.363Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:47.365Z"}
+{"level":"info","message":"GET /api/companies","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:47.432Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:47.841Z"}
+{"level":"info","message":"GET /api/articles/categories","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:47.845Z"}
+{"level":"info","message":"GET /api/articles","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:47.847Z"}
+{"level":"info","message":"GET /api/articles/categories","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:47.880Z"}
+{"level":"info","message":"GET /api/articles","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:47.882Z"}
+{"level":"info","message":"GET /api/faqs/categories","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:48.468Z"}
+{"level":"info","message":"GET /api/faqs","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:48.473Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:48.474Z"}
+{"level":"info","message":"GET /api/faqs/categories","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:48.509Z"}
+{"level":"info","message":"GET /api/faqs","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:48.509Z"}
+{"level":"info","message":"GET /api/admin/me","service":"salesiq-socket-service","timestamp":"2026-02-04T10:00:50.208Z"}

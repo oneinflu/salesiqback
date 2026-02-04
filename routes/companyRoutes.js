@@ -4,11 +4,15 @@ const {
   createCompanyAndWebsite, 
   getCompanies, 
   getCompanyById,
-  getCompanyWebsites 
+  getCompanyWebsites,
+  getWidgetConfig
 } = require('../controllers/companyController');
 const { protect } = require('../middleware/authMiddleware');
 
-// All routes are protected
+// Public routes
+router.get('/widget-config', getWidgetConfig);
+
+// Protected routes
 router.use(protect);
 
 router.post('/', createCompanyAndWebsite);

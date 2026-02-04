@@ -41,7 +41,7 @@ const createCompanyAndWebsite = async (req, res) => {
     await session.commitTransaction();
     session.endSession();
 
-    const embedUrl = 'http://localhost:3000/embed.js';
+    const embedUrl = 'https://salesiqliveapp-7hm63.ondigitalocean.app/embed.js';
     const embedCode = `<script>window.$salesiq=window.$salesiq||{};$salesiq.ready=function(){};</script> <script id="salesiqscript" src="${embedUrl}?companyId=${newCompany._id}&websiteId=${newWebsite._id}" defer></script>`;
 
     res.status(201).json({
@@ -109,7 +109,7 @@ const getCompanyById = async (req, res) => {
     
     // Construct response with integration details
     const websiteData = websites.map(site => {
-      const embedUrl = 'http://localhost:3000/embed.js';
+      const embedUrl = 'https://salesiqliveapp-7hm63.ondigitalocean.app/embed.js';
       const embedCode = `<script>window.$salesiq=window.$salesiq||{};$salesiq.ready=function(){};</script> <script id="salesiqscript" src="${embedUrl}?companyId=${company._id}&websiteId=${site._id}" defer></script>`;
       
       return {
@@ -128,9 +128,48 @@ const getCompanyById = async (req, res) => {
   }
 };
 
+// @desc    Get widget configuration (Public)
+// @route   GET /api/companies/widget-config
+// @access  Public
+const getWidgetConfig = async (req, res) => {
+  const { companyId, websiteId } = req.query;
+
+  if (!companyId || !websiteId) {
+    return res.status(400).json({ message: 'companyId and websiteId are required' });
+  }
+
+  try {
+    const company = await Company.findById(companyId);
+    const website = await Website.findById(websiteId);
+
+    if (!company || !website) {
+      return res.status(404).json({ message: 'Company or Website not found' });
+    }
+
+    if (website.companyId.toString() !== companyId) {
+      return res.status(400).json({ message: 'Website does not belong to this Company' });
+    }
+
+    res.json({
+      companyName: company.name,
+      websiteName: website.name,
+      themeColor: company.settings.themeColor, // From Company settings
+      widgetColor: website.widgetConfig.primaryColor, // From Website widgetConfig
+      position: website.widgetConfig.position, // From Website widgetConfig
+      webhookUrl: website.webhookUrl,
+      settings: company.settings // Include full company settings if needed
+    });
+
+  } catch (error) {
+    logger.error('Get Widget Config Error: ' + error.message);
+    res.status(500).json({ message: 'Server error' });
+  }
+};
+
 module.exports = {
   createCompanyAndWebsite,
   getCompanies,
   getCompanyById,
-  getCompanyWebsites
+  getCompanyWebsites,
+  getWidgetConfig
 };

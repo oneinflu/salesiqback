@@ -13,3 +13,10 @@
 {"level":"error","message":"Register Admin Error: next is not a function","service":"salesiq-socket-service","timestamp":"2026-02-03T06:29:29.371Z"}
 {"level":"error","message":"Create Company Error: E11000 duplicate key error collection: salesiq.companies index: email_1 dup key: { email: \"contact@webhook.com\" }","service":"salesiq-socket-service","timestamp":"2026-02-03T11:30:05.917Z"}
 {"level":"error","message":"Webhook trigger failed for website 6981dc4baf63081734a3fcf9: Request failed with status code 404","service":"salesiq-socket-service","timestamp":"2026-02-03T11:30:20.135Z"}
+{"level":"error","message":"Error in visitor:join: E11000 duplicate key error collection: salesiq.visitorsessions index: sessionId_1 dup key: { sessionId: \"nr3909ylkjrnxlk06lvieb\" }","service":"salesiq-socket-service","timestamp":"2026-02-04T09:38:50.955Z"}
+{"level":"error","message":"Error in visitor:join: E11000 duplicate key error collection: salesiq.visitorsessions index: sessionId_1 dup key: { sessionId: \"nr3909ylkjrnxlk06lvieb\" }","service":"salesiq-socket-service","timestamp":"2026-02-04T09:39:24.697Z"}
+{"level":"error","message":"Error in visitor:join: E11000 duplicate key error collection: salesiq.visitorsessions index: sessionId_1 dup key: { sessionId: \"nr3909ylkjrnxlk06lvieb\" }","service":"salesiq-socket-service","timestamp":"2026-02-04T09:41:18.468Z"}
+{"level":"error","message":"Validation error in visitor:join: \"existingVisitorId\" must be a string","service":"salesiq-socket-service","timestamp":"2026-02-04T09:42:17.610Z"}
+{"level":"error","message":"Validation error in visitor:join: \"existingVisitorId\" must be a string","service":"salesiq-socket-service","timestamp":"2026-02-04T09:45:17.726Z"}
+{"level":"error","message":"Validation error in visitor:join: \"existingVisitorId\" must be a string","service":"salesiq-socket-service","timestamp":"2026-02-04T09:49:28.795Z"}
+{"level":"error","message":"Error in visitor:join: E11000 duplicate key error collection: salesiq.visitorsessions index: sessionId_1 dup key: { sessionId: \"mybat8syxzbmsatj0fktr\" }","service":"salesiq-socket-service","timestamp":"2026-02-04T09:54:11.441Z"}

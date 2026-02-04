@@ -40,11 +40,11 @@ const checkRateLimit = (socketId) => {
 const schemas = {
     visitorJoin: Joi.object({
         companyId: Joi.string().required(),
-        websiteId: Joi.string().optional(),
-        pageUrl: Joi.string().uri({ allowRelative: true }).optional(),
-        userAgent: Joi.string().optional(),
-        existingVisitorId: Joi.string().optional(),
-        sessionId: Joi.string().optional()
+        websiteId: Joi.string().allow(null, '').optional(),
+        pageUrl: Joi.string().uri({ allowRelative: true }).allow(null, '').optional(),
+        userAgent: Joi.string().allow(null, '').optional(),
+        existingVisitorId: Joi.string().allow(null, '').optional(),
+        sessionId: Joi.string().allow(null, '').optional()
     }),
     visitorHeartbeat: Joi.object({
         sessionId: Joi.string().required()
@@ -55,7 +55,7 @@ const schemas = {
         phone: Joi.string().pattern(/^[+]?[(]?[0-9]{3}[)]?[-\s.]?[0-9]{3}[-\s.]?[0-9]{4,6}$/).required(), // Basic phone regex
         visitorId: Joi.string().required(),
         companyId: Joi.string().required(),
-        chatId: Joi.string().optional()
+        chatId: Joi.string().allow(null, '').optional()
     })
 };
 
